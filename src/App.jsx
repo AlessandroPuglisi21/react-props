@@ -1,5 +1,4 @@
 import Header from "../components/header"
-import Card from '../components/card'
 import Footer from "../components/footer"
 import Bacheca from "../components/bacheca"
 

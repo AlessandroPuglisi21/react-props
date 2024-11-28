@@ -1,6 +1,7 @@
 import style from "../components/card.module.css";
 import posts from "../components/posts";
 
+
 export default function Card() {
   const publishedPosts = posts.filter((post) => post.published);
 
@@ -9,8 +10,9 @@ export default function Card() {
       <main className={style.background}>
         <div className={style.container}>
           {publishedPosts.length > 0
-            ? publishedPosts.map((post) => (
+            ? publishedPosts.map((post) => ( 
                 <div key={post.id} className={style.cardbody}>
+                  <img src={post.image} alt="" />
                   <h3>
                     {post.title} {post.id}
                   </h3>

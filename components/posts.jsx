@@ -2,7 +2,7 @@ const posts = [
 	{
 		id: 1,
 		title: 'Titolo del Post',
-		image: '' /* compila questo campo */,
+		image: 'https://picsum.photos/id/237/200/300' /* compila questo campo */,
 		content:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.',
 		tags: ['html', 'css'],
@@ -11,7 +11,7 @@ const posts = [
 	{
 		id: 2,
 		title: 'Titolo del Post',
-		image: '' /* compila questo campo */,
+		image: 'https://picsum.photos/seed/picsum/200/300' /* compila questo campo */,
 		content:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.',
 		tags: ['js', 'css'],
@@ -20,7 +20,7 @@ const posts = [
 	{
 		id: 3,
 		title: 'Titolo del Post',
-		image: '' /* compila questo campo */,
+		image: 'https://picsum.photos/200/300?grayscale' /* compila questo campo */,
 		content:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.',
 		tags: ['js', 'php'],
@@ -29,7 +29,7 @@ const posts = [
 	{
 		id: 4,
 		title: 'Titolo del Post',
-		image: '' /* compila questo campo */,
+		image: 'https://picsum.photos/200/300/?blur' /* compila questo campo */,
 		content:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.',
 		tags: ['html'],
