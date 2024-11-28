@@ -1,22 +1,17 @@
 import style from "../components/card.module.css";
-import mountain from '../src/img/reflecting-on-our-collective-journey-csp-2023-600x400.jpg'
-
+import posts from "../components/posts";
 export default function Card() {
   return (
     <>
       <main className={style.background}>
         <div className={style.container}>
-          <div className={style.cardbody}>
-            <img src={mountain} alt="" />
-            <h3>Gita in montagna</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-              assumenda id a enim ratione aperiam facere velit eveniet dolores
-              nisi, rerum illo, quia odio quaerat aspernatur harum tempora
-              blanditiis totam.
-            </p>
-            <button className={style.cardbutton}>Leggi di più</button>
-          </div>
+          {posts.map((post) => (
+            <div key={post.id} className={`${style.cardbody}`}>
+              <h3>{post.title}</h3>
+              <h5>Tag: {post.tags}</h5>
+              <p>Contenuto: {post.content}</p>
+            </div>
+          ))}
         </div>
       </main>
     </>
