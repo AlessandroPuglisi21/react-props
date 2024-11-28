@@ -1,6 +1,7 @@
 import Header from "../components/header"
 import Card from '../components/card'
 import Footer from "../components/footer"
+import Bacheca from "../components/bacheca"
 
 function App() {
   
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <Card />
+      <Bacheca />
       <Footer />
 
     </>
